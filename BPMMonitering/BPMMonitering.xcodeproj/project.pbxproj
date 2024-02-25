@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B831E2B2B8AED8E00A5951B /* BPMMoniteringApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B831E2A2B8AED8E00A5951B /* BPMMoniteringApp.swift */; };
+		9B831E2D2B8AED8E00A5951B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B831E2C2B8AED8E00A5951B /* ContentView.swift */; };
+		9B831E2F2B8AED9000A5951B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B831E2E2B8AED9000A5951B /* Assets.xcassets */; };
+		9B831E322B8AED9000A5951B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B831E312B8AED9000A5951B /* Preview Assets.xcassets */; };
+		9B831E382B8AED9000A5951B /* BPMMonitering Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 9B831E372B8AED9000A5951B /* BPMMonitering Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9B831E3D2B8AED9000A5951B /* BPMMoniteringApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B831E3C2B8AED9000A5951B /* BPMMoniteringApp.swift */; };
+		9B831E3F2B8AED9000A5951B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B831E3E2B8AED9000A5951B /* ContentView.swift */; };
+		9B831E412B8AED9200A5951B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B831E402B8AED9200A5951B /* Assets.xcassets */; };
+		9B831E442B8AED9200A5951B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B831E432B8AED9200A5951B /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B831E392B8AED9000A5951B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B831E1F2B8AED8E00A5951B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B831E362B8AED9000A5951B;
+			remoteInfo = "BPMMonitering Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9B831E4A2B8AED9200A5951B /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				9B831E382B8AED9000A5951B /* BPMMonitering Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9B831E272B8AED8E00A5951B /* BPMMonitering.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BPMMonitering.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B831E2A2B8AED8E00A5951B /* BPMMoniteringApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BPMMoniteringApp.swift; sourceTree = "<group>"; };
+		9B831E2C2B8AED8E00A5951B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9B831E2E2B8AED9000A5951B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B831E312B8AED9000A5951B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9B831E372B8AED9000A5951B /* BPMMonitering Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BPMMonitering Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B831E3C2B8AED9000A5951B /* BPMMoniteringApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BPMMoniteringApp.swift; sourceTree = "<group>"; };
+		9B831E3E2B8AED9000A5951B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9B831E402B8AED9200A5951B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B831E432B8AED9200A5951B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9B831E4E2B8AEDCB00A5951B /* BPMMonitering Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "BPMMonitering Watch App.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B831E242B8AED8E00A5951B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B831E342B8AED9000A5951B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B831E1E2B8AED8E00A5951B = {
+			isa = PBXGroup;
+			children = (
+				9B831E292B8AED8E00A5951B /* BPMMonitering */,
+				9B831E3B2B8AED9000A5951B /* BPMMonitering Watch App */,
+				9B831E282B8AED8E00A5951B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B831E282B8AED8E00A5951B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B831E272B8AED8E00A5951B /* BPMMonitering.app */,
+				9B831E372B8AED9000A5951B /* BPMMonitering Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B831E292B8AED8E00A5951B /* BPMMonitering */ = {
+			isa = PBXGroup;
+			children = (
+				9B831E2A2B8AED8E00A5951B /* BPMMoniteringApp.swift */,
+				9B831E2C2B8AED8E00A5951B /* ContentView.swift */,
+				9B831E2E2B8AED9000A5951B /* Assets.xcassets */,
+				9B831E302B8AED9000A5951B /* Preview Content */,
+			);
+			path = BPMMonitering;
+			sourceTree = "<group>";
+		};
+		9B831E302B8AED9000A5951B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9B831E312B8AED9000A5951B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9B831E3B2B8AED9000A5951B /* BPMMonitering Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				9B831E4E2B8AEDCB00A5951B /* BPMMonitering Watch App.entitlements */,
+				9B831E3C2B8AED9000A5951B /* BPMMoniteringApp.swift */,
+				9B831E3E2B8AED9000A5951B /* ContentView.swift */,
+				9B831E402B8AED9200A5951B /* Assets.xcassets */,
+				9B831E422B8AED9200A5951B /* Preview Content */,
+			);
+			path = "BPMMonitering Watch App";
+			sourceTree = "<group>";
+		};
+		9B831E422B8AED9200A5951B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9B831E432B8AED9200A5951B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B831E262B8AED8E00A5951B /* BPMMonitering */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B831E4B2B8AED9200A5951B /* Build configuration list for PBXNativeTarget "BPMMonitering" */;
+			buildPhases = (
+				9B831E232B8AED8E00A5951B /* Sources */,
+				9B831E242B8AED8E00A5951B /* Frameworks */,
+				9B831E252B8AED8E00A5951B /* Resources */,
+				9B831E4A2B8AED9200A5951B /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B831E3A2B8AED9000A5951B /* PBXTargetDependency */,
+			);
+			name = BPMMonitering;
+			productName = BPMMonitering;
+			productReference = 9B831E272B8AED8E00A5951B /* BPMMonitering.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B831E362B8AED9000A5951B /* BPMMonitering Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B831E472B8AED9200A5951B /* Build configuration list for PBXNativeTarget "BPMMonitering Watch App" */;
+			buildPhases = (
+				9B831E332B8AED9000A5951B /* Sources */,
+				9B831E342B8AED9000A5951B /* Frameworks */,
+				9B831E352B8AED9000A5951B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BPMMonitering Watch App";
+			productName = "BPMMonitering Watch App";
+			productReference = 9B831E372B8AED9000A5951B /* BPMMonitering Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B831E1F2B8AED8E00A5951B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					9B831E262B8AED8E00A5951B = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					9B831E362B8AED9000A5951B = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 9B831E222B8AED8E00A5951B /* Build configuration list for PBXProject "BPMMonitering" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B831E1E2B8AED8E00A5951B;
+			productRefGroup = 9B831E282B8AED8E00A5951B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B831E262B8AED8E00A5951B /* BPMMonitering */,
+				9B831E362B8AED9000A5951B /* BPMMonitering Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B831E252B8AED8E00A5951B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B831E322B8AED9000A5951B /* Preview Assets.xcassets in Resources */,
+				9B831E2F2B8AED9000A5951B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B831E352B8AED9000A5951B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B831E442B8AED9200A5951B /* Preview Assets.xcassets in Resources */,
+				9B831E412B8AED9200A5951B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B831E232B8AED8E00A5951B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B831E2D2B8AED8E00A5951B /* ContentView.swift in Sources */,
+				9B831E2B2B8AED8E00A5951B /* BPMMoniteringApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B831E332B8AED9000A5951B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B831E3F2B8AED9000A5951B /* ContentView.swift in Sources */,
+				9B831E3D2B8AED9000A5951B /* BPMMoniteringApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B831E3A2B8AED9000A5951B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B831E362B8AED9000A5951B /* BPMMonitering Watch App */;
+			targetProxy = 9B831E392B8AED9000A5951B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9B831E452B8AED9200A5951B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9B831E462B8AED9200A5951B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		9B831E482B8AED9200A5951B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "BPMMonitering Watch App/BPMMonitering Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BPMMonitering Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = EEGRNAPU89;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = BPMMonitering;
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "This App wants to read your health data.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This App wants to read your health data.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This App wants to read your health data.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.BPMMonitering;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BPMMonitering.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		9B831E492B8AED9200A5951B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "BPMMonitering Watch App/BPMMonitering Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BPMMonitering Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = EEGRNAPU89;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = BPMMonitering;
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "This App wants to read your health data.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This App wants to read your health data.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This App wants to read your health data.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.BPMMonitering;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BPMMonitering.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		9B831E4C2B8AED9200A5951B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BPMMonitering/Preview Content\"";
+				DEVELOPMENT_TEAM = EEGRNAPU89;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = BPMMonitering;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BPMMonitering;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B831E4D2B8AED9200A5951B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BPMMonitering/Preview Content\"";
+				DEVELOPMENT_TEAM = EEGRNAPU89;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = BPMMonitering;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BPMMonitering;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B831E222B8AED8E00A5951B /* Build configuration list for PBXProject "BPMMonitering" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B831E452B8AED9200A5951B /* Debug */,
+				9B831E462B8AED9200A5951B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B831E472B8AED9200A5951B /* Build configuration list for PBXNativeTarget "BPMMonitering Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B831E482B8AED9200A5951B /* Debug */,
+				9B831E492B8AED9200A5951B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B831E4B2B8AED9200A5951B /* Build configuration list for PBXNativeTarget "BPMMonitering" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B831E4C2B8AED9200A5951B /* Debug */,
+				9B831E4D2B8AED9200A5951B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B831E1F2B8AED8E00A5951B /* Project object */;
+}
